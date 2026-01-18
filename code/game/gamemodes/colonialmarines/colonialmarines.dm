@@ -400,7 +400,7 @@
 			var/admin_names
 			for(var/client/admin in GLOB.admins)
 				admin_names += "[admin.ckey]<br>"
-			human.play_screen_text("<span class='maptext' style=;text-align:left valign='top'>Directed by: <br>[admin_names]", /atom/movable/screen/text/screen_text) // SS220 FONTS FIX
+			human.play_screen_text("<span class='maptext' style=text-align:left valign='top'>Directed by: <br>[admin_names]", /atom/movable/screen/text/screen_text) // SS220 FONTS FIX
 ///////////////////////////
 //Checks to see who won///
 //////////////////////////
